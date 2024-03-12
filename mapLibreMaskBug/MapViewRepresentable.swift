@@ -38,7 +38,7 @@ struct MapViewRepresentable: UIViewRepresentable {
     private func addRainLayer(in mapView: MLNMapView) {
         let source = MLNImageSource(identifier: "rainLayer",
                                     coordinateQuad: swissQuad,
-                                    url: URL(string: "https://www.srf.ch/meteo/static/map/layer/radar/web/PPIMERCATORWEBP2.20240311150500.webp")!)
+                                    url: URL(string: "https://www-stage.srf.ch/meteo/static/map/_assets/PPIMERCATORWEBP2.20240311150500.webp")!)
         mapView.style?.addSource(source)
         let rainLayer = MLNRasterStyleLayer(identifier: "rainLayer", source: source)
         mapView.style?.addLayer(rainLayer)
