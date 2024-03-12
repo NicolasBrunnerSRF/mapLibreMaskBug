@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7C22577B2BA03E060034D7C3 /* MapLibre in Frameworks */ = {isa = PBXBuildFile; productRef = 7C22577A2BA03E060034D7C3 /* MapLibre */; };
+		7CDB61AD2BA03F56007FEDB0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7CDB61AC2BA03F56007FEDB0 /* README.md */; };
 		7CFCA6C22BA034E400EBFC42 /* mapLibreMaskBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCA6C12BA034E400EBFC42 /* mapLibreMaskBugApp.swift */; };
 		7CFCA6C42BA034E400EBFC42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFCA6C32BA034E400EBFC42 /* ContentView.swift */; };
 		7CFCA6C62BA034E500EBFC42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFCA6C52BA034E500EBFC42 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7CDB61AC2BA03F56007FEDB0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7CFCA6BE2BA034E400EBFC42 /* mapLibreMaskBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapLibreMaskBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFCA6C12BA034E400EBFC42 /* mapLibreMaskBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapLibreMaskBugApp.swift; sourceTree = "<group>"; };
 		7CFCA6C32BA034E400EBFC42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		7CFCA6B52BA034E400EBFC42 = {
 			isa = PBXGroup;
 			children = (
+				7CDB61AC2BA03F56007FEDB0 /* README.md */,
 				7CFCA6C02BA034E400EBFC42 /* mapLibreMaskBug */,
 				7CFCA6BF2BA034E400EBFC42 /* Products */,
 			);
@@ -141,6 +144,7 @@
 			files = (
 				7CFCA6D52BA0360000EBFC42 /* style.json in Resources */,
 				7CFCA6C92BA034E500EBFC42 /* Preview Assets.xcassets in Resources */,
+				7CDB61AD2BA03F56007FEDB0 /* README.md in Resources */,
 				7CFCA6C62BA034E500EBFC42 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
